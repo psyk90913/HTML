@@ -48,11 +48,11 @@
         <!-- END .CONTAINER_24 -->
         <div style="display:none;" class="nav_up" id="nav_up"></div>
         <div style="display:none;" class="nav_down" id="nav_down"></div>
-        <script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+       <!-- <script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.7.1.min.js" type="text/javascript"></script>
         <script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.tips.js" type="text/javascript"></script>
         <script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.tipTip.js" type="text/javascript"></script>
-       <!-- <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.lightbox-0.5.js"></script> -->
-        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/colorpicker.js"></script>
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.lightbox-0.5.js"></script>
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/colorpicker.js"></script>-->
         <script type="text/javascript">
             $("document").ready(function() {
                 var percent = $('.progress_bar').attr('title');
@@ -193,6 +193,5 @@
                 });
             });
         </script>
-        <?php wp_footer(); ?>
     </body>
  </html>
